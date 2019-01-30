@@ -1,9 +1,9 @@
 {
   "name": "@johnfellows/aws-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "AWS Tools and Templates",
   "main": "react-cloud-formation.js",
-  "bin": { "aws-react-yaml": "node ./react-cloud-formation.js"},
+  "bin": { "aws-react-yaml": "./react-cloud-formation.js"},
   "scripts": {},
   "author": "John Cokos",
   "license": "MIT",
