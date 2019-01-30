@@ -1,10 +1,9 @@
 {
-  "name": "aws-tools",
+  "name": "@johnfellows/aws-tools",
   "version": "1.0.0",
   "description": "AWS Tools and Templates",
   "main": "react-cloud-formation.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "John Cokos",
   "license": "MIT",
   "dependencies": {
@@ -17,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/johncokos/aws-tools/issues"
   },
-  "homepage": "https://github.com/johncokos/aws-tools#readme"
+  "homepage": "https://github.com/johncokos/aws-tools#readme",
+  "devDependencies": {}
 }
