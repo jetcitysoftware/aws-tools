@@ -6,13 +6,13 @@ Once setup, AWS will automatically build and deploy your react application from 
 
 ## Installation
 ```
-npm install -g @johnfellows/aws-tools
+npm install -g @code-fellows/aws-tools
 ```
 
 ## Usage
 * Ensure that your react application is properly deployed at github
 * From your development machine, change to the folder containing your application
-* Once you have the environment variables set, issue the following command: 
+* Once you have the environment variables set, issue the following command:
 * `aws-react-yaml`
 * The tool will construct a file called `aws.yml` in your project's root folder
 * Login to your AWS account and go to the **Cloud Formation** tool and create a new stack
@@ -26,7 +26,7 @@ A react application sourced at github, with a valid `package.json` file
 
 A "build" script command in your package.json which creates a `/build` folder in the root of your app.
 
-This tool requires that that the following **enviornment variables** be set.  
+This tool requires that that the following **enviornment variables** be set.
 
 You may use a `.env` file to set them. If you do, then run this tool from the folder that contains the `.env` file
 
@@ -41,7 +41,7 @@ You may use a `.env` file to set them. If you do, then run this tool from the fo
 
 ## Caveats/Notes
 
-* DO NOT commit your .env file or the aws.yml files to your github repository. 
+* DO NOT commit your .env file or the aws.yml files to your github repository.
   * They will contain your github token, which is forbidden to be uploaded publicly
 * DO NOT commit your react app's 'build' folder. The AWS system will automatically generate the build for you.
 
